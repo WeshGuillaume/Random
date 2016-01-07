@@ -116,12 +116,12 @@ const outputString = mjml('mjml code')
 
 # Contributors
 
-<table>
+<table cellpadding="0">
   <tr>
-    <th><a href="#"><img src="https://avatars2.githubusercontent.com/u/570317?v=3&s=192" alt="Maxime" width="50px"></a></th>
-    <th><a href="#"><img src="https://avatars0.githubusercontent.com/u/116530?v=3&s=192" alt="Robin" width="50px"></a></th>
-    <th><a href="#"><img src="https://avatars1.githubusercontent.com/u/582703?v=3&s=192" alt="Loeck" width="50px"></a></th>
-    <th><a href="#"><img src="https://avatars3.githubusercontent.com/u/6558790?v=3&s=192" alt="Guillaume" width="50px"></a></th>
+    <th><a href="#"><img src="https://avatars2.githubusercontent.com/u/570317?v=3&s=192" alt="Maxime" width="100px"></a></th>
+    <th><a href="#"><img src="https://avatars0.githubusercontent.com/u/116530?v=3&s=192" alt="Robin" width="100px"></a></th>
+    <th><a href="#"><img src="https://avatars1.githubusercontent.com/u/582703?v=3&s=192" alt="Loeck" width="100px"></a></th>
+    <th><a href="#"><img src="https://avatars3.githubusercontent.com/u/6558790?v=3&s=192" alt="Guillaume" width="100px"></a></th>
   </tr>
   <tr>
     <td><a href="https://github.com/iRyusa">Maxime</a></td>
