@@ -114,6 +114,14 @@ const outputString = mjml('mjml code')
 
 <br>
 
+# Contributors
+
+| [![stoeffel](https://avatars2.githubusercontent.com/u/570317?v=3&s=460 =20px)](https://github.com/iRyusa)         | [![stoeffel](https://avatars0.githubusercontent.com/u/116530?v=3&s=460 =20px)](https://github.com/robink) | [![stoeffel](https://avatars1.githubusercontent.com/u/582703?v=3&s=460 =20px)](https://github.com/lohek) |
+|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [Maxime](https://github.com/iRyusa)                                                                                | [Robin](https://github.com/robink)                                                                         | [Loek](https://github.com/lohek)                                                                          |
+| [![stoeffel](https://avatars3.githubusercontent.com/u/6558790?v=3&s=460 =20px)](https://github.com/GuillaumeBadi) |                                                                                                            |                                                                                                           |
+| [Guillaume](https://github.com/GuillaumeBadi)                                                                      |                                                                                                            |                                                                                                           |                                                                   |
+
 # Contribute
 
  - [ ] Fork the repository
