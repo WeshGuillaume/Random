@@ -27,7 +27,7 @@ MJML is a markup language designed to reduce the pain of coding a responsive ema
 <p align="center"><a href="#" target="_blank"><img width="75%"src="https://raw.githubusercontent.com/GuillaumeBadi/Random/master/Editor%20with%20shadow.png?token=AGQURlK4wYL5kH7LwhgOXvel61r6CIj9ks5Wl7OZwA%3D%3D"></a></p>
 
 <br>
-# Installation (not available yet)
+# Installation
 
 <p><a href="#" target="_blank">
   <strong align="left">Via NPM: </strong>
@@ -57,7 +57,7 @@ brew install mjml
 </a></p>
 
 <br>
-# Usage
+# Show me the code!
 
 ### Command line
 
