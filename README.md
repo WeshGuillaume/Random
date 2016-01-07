@@ -29,9 +29,10 @@ MJML is a markup language designed to reduce the pain of coding a responsive ema
 <br>
 # Installation (not available yet)
 
-> via NPM
-
-<p align="right"><a href="#" target="_blank"><img width="30"src="https://www.npmjs.com/static/images/npm-logo.svg"></a></p>
+<p align="right"><a href="#" target="_blank">
+  <strong align="left">Via NPM: </strong>
+  <img align="right" width="30"src="https://www.npmjs.com/static/images/npm-logo.svg">
+</a></p>
 
 ``` bash
 
