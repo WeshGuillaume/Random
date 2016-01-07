@@ -1,5 +1,5 @@
 <br>
-<p align="center"><a href="#" target="_blank"><img width="250"src="https://bitbucket.mailjet.com/projects/DEVREL/repos/mjml/browse/assets/Logo.png?at=c81cd1a829fa5ca36d0eb033735d3eaf9a7afa6f&raw"></a></p>
+<p align="center"><a href="#" target="_blank"><img width="250"src="https://raw.githubusercontent.com/GuillaumeBadi/Random/master/Logo.png?token=AGQURskZ1M9E4ghdsXYOEpQSIOVMiCfMks5Wl7MawA%3D%3D"></a></p>
 
 <p align="center">
   <a href="https://travis-ci.org/mailjet/mailjet-apiv3-python"><img src="https://travis-ci.org/mailjet/mailjet-apiv3-python.svg?branch=master" alt="travis"></a>
