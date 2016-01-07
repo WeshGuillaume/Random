@@ -50,6 +50,12 @@ npm install -g mjml
 brew install mjml
 
 ```
+
+<strong align="left">Via... click: </strong>
+<p align="center"><a href="#" target="_blank">
+  <img width="100" src="https://cloud.githubusercontent.com/assets/6558790/12175323/cdc78a78-b561-11e5-99e2-23abd893879a.png">
+</a></p>
+
 <br>
 # Usage
 
