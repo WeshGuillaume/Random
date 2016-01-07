@@ -116,11 +116,20 @@ const outputString = mjml('mjml code')
 
 # Contributors
 
-| [![Maxime](https://avatars2.githubusercontent.com/u/570317?v=3&s=192)](https://github.com/iRyusa)         | [![Robin](https://avatars0.githubusercontent.com/u/116530?v=3&s=192)](https://github.com/robink) | [![Loeck](https://avatars1.githubusercontent.com/u/582703?v=3&s=192)](https://github.com/lohek) |
-|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [Maxime](https://github.com/iRyusa)                                                                                | [Robin](https://github.com/robink)                                                                         | [Loek](https://github.com/lohek)                                                                          |
-| [![Guillaume](https://avatars3.githubusercontent.com/u/6558790?v=3&s=192)](https://github.com/GuillaumeBadi) |                                                                                                            |                                                                                                           |
-| [Guillaume](https://github.com/GuillaumeBadi)                                                                      |                                                                                                            |                                                                                                           |                                                                   |
+<table>
+  <tr>
+    <th><a href="#"><img src="https://avatars2.githubusercontent.com/u/570317?v=3&s=192" alt="Maxime" width="50px"></a></th>
+    <th><a href="#"><img src="https://avatars0.githubusercontent.com/u/116530?v=3&s=192" alt="Robin" width="50px"></a></th>
+    <th><a href="#"><img src="https://avatars1.githubusercontent.com/u/582703?v=3&s=192" alt="Loeck" width="50px"></a></th>
+    <th><a href="#"><img src="https://avatars3.githubusercontent.com/u/6558790?v=3&s=192" alt="Guillaume" width="50px"></a></th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/iRyusa">Maxime</a></td>
+    <td><a href="https://github.com/robink">Robin</a></td>
+    <td><a href="https://github.com/lohek">Loeck</a></td>
+    <td><a href="https://github.com/GuillaumeBadi">Guillaume</a></td>
+  </tr>
+</table>
 
 # Contribute
 
