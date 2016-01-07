@@ -101,7 +101,7 @@ const outputString = mjml('mjml code')
 
 # Contribute
 
- - [ ] Fork the rpository
+ - [ ] Fork the repository
  - [ ] Code an awesome feature
  - [ ] Make your pull request
  - [ ] Add your github profile here
