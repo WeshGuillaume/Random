@@ -23,6 +23,8 @@
 
 MJML is a markup language designed to reduce the pain of coding a responsive email. Its semantic syntax makes it easy and straightforward while its rich standard components library fastens your development time and lightens your email codebase. MJML’s open-source engine takes care of translating the MJML you wrote into responsive HTML.
 
+<br>
+<p align="center"><a href="#" target="_blank"><img width="75%"src="https://raw.githubusercontent.com/GuillaumeBadi/Random/master/Editor%20with%20shadow.png?token=AGQURlK4wYL5kH7LwhgOXvel61r6CIj9ks5Wl7OZwA%3D%3D"></a></p>
 
 <br>
 # Installation (not available yet)
