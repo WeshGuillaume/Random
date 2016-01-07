@@ -98,4 +98,10 @@ const outputString = mjml('mjml code')
 # Try it live
 
 <br>
+
 # Contribute
+
+ - [ ] Fork the rpository
+ - [ ] Code an awesome feature
+ - [ ] Make your pull request
+ - [ ] Add your github profile here
