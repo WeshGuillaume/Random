@@ -42,7 +42,7 @@ npm install -g mjml
 
 <p><a href="#" target="_blank">
   <strong align="left">Via Homebrew: </strong>
-  <img align="right" width="30"src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Emoji_u1f37a.svg/2000px-Emoji_u1f37a">
+  <img align="right" width="30"src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Emoji_u1f37a.svg/2000px-Emoji_u1f37a.svg.png">
 </a></p>
 
 ``` bash
