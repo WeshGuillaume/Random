@@ -8,11 +8,11 @@
 <p align="center">
 <br>
 |
-<b><a href="#introduction">Introduction</a></b>|
-<b><a href="#installation">Installation</a></b>|
-<b><a href="#usage">Usage</a></b>|
-<b><a href="#tryitlive">Plugins</a></b>|
-<b><a href="#contribute">Contribute</a></b>|
+<b><a href="#introduction"> Introduction </a></b>|
+<b><a href="#installation"> Installation </a></b>|
+<b><a href="#usage"> Usage </a></b>|
+<b><a href="#tryitlive"> Plugins </a></b>|
+<b><a href="#contribute"> Contribute </a></b>|
 
 </p>
 <br>
