@@ -155,6 +155,6 @@ Get your hands dirty by trying the MJML online editor! Write awesome code on the
 # Contribute
 
  - [ ] Fork the repository
- - [ ] Code an awesome feature
+ - [x] Code an awesome feature (we are confident about that)
  - [ ] Make your pull request
  - [ ] Add your github profile here
