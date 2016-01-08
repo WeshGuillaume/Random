@@ -27,6 +27,7 @@ MJML is a markup language designed to reduce the pain of coding a responsive ema
 <p align="center"><a href="#" target="_blank"><img width="75%"src="https://raw.githubusercontent.com/GuillaumeBadi/Random/master/Editor%20with%20shadow.png?token=AGQURlK4wYL5kH7LwhgOXvel61r6CIj9ks5Wl7OZwA%3D%3D"></a></p>
 
 <br>
+
 # Installation
 
 <p><a href="#" target="_blank">
@@ -56,7 +57,7 @@ brew install mjml
   <img width="100" src="https://cloud.githubusercontent.com/assets/6558790/12175323/cdc78a78-b561-11e5-99e2-23abd893879a.png">
 </a></p>
 
-<br>
+
 # Show me the code!
 
 ### Command line
@@ -110,6 +111,7 @@ const outputString = mjml('mjml code')
 ```
 
 <br>
+
 # Try it live
 
 Get your hands dirty by trying the MJML online editor! Write awesome code on the left side an preview your email on the right
