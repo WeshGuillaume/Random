@@ -124,6 +124,22 @@ const outputString = mjml('mjml code')
 
 ```
 
+### Create your component
+
+> Issue the following in your terminal
+
+``` bash
+
+$> mjml --register <name of your component>
+
+# If your component cannot contain anything else than text:
+$> mjml --register <name of you component> -e
+
+```
+
+It will create an basic component template in a `.js` file. Follow the instructions provided in the file
+and read more about custom components in the documentation (TODO: link)
+
 <br>
 
 # Try it live
@@ -131,7 +147,7 @@ const outputString = mjml('mjml code')
 Get your hands dirty by trying the MJML online editor! Write awesome code on the left side an preview your email on the right
 
 <p align="center">
-  <a href="https://travis-ci.org/mailjet/mailjet-apiv3-python"><img src="https://cloud.githubusercontent.com/assets/6558790/12195421/58a40618-b5f7-11e5-9ed3-80463874ab14.png" alt="try it live" width="75%"></a>
+  <a href="#"><img src="https://cloud.githubusercontent.com/assets/6558790/12195421/58a40618-b5f7-11e5-9ed3-80463874ab14.png" alt="try it live" width="75%"></a>
 </p>
 <br>
 
