@@ -5,7 +5,7 @@ The `mjml-engine` is the core of the MJML renderer. It exposes the MJML parser a
 
 ## How it works
 
-(how it works image)
+<p align="center"><a href="#" target="_blank"><img width="600"src="https://cloud.githubusercontent.com/assets/6558790/12552666/72297fbc-c373-11e5-981b-62217a960c0f.png"></a></p>
 
 The engine is composed of multiple parts:
 	- [`documentParser`](#) : Parse the markup MJML string and return a JSON representation
