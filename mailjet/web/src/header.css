@@ -5,10 +5,17 @@ body, html {
   color: #626262;
 }
 
+.sections { margin-top: 260px; }
+
+/* oooooo */
+/* HEADER */
+/* oooooo */
+
 header {
   background-color: #FFC85B;
   padding-top: 100px;
   padding-bottom: -100px;
+  height: 500px;
 }
 
 table { width: 100%; }
@@ -17,7 +24,9 @@ tr { background: white; }
 th {
   background: #FFC85B;
   color: #A37E37;
-  font-weight: bold;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
   padding: 20px 20px;
 }
 
@@ -56,7 +65,7 @@ td {
 
 .table-container {
   width: 100%;
-  margin: 50px auto;
+  margin: 30px auto;
   position: relative;
   left: 0;
   right: 0;
@@ -84,4 +93,39 @@ td {
   border: none;
   color: white;
   padding: 10px 20px;
+}
+
+/* oooooooooo */
+/* END HEADER */
+/* oooooooooo */
+
+/* ooooooooooo */
+/* TESTIMONIAL */
+/* ooooooooooo */
+
+.testimonial {
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 50%;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture {
+  margin-top: -100px;
+  position: relative;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+}
+
+.content {
+  margin-top: -40px;
+  color: grey;
+  padding: 70px;
+  border-radius: 3px;
+  border: 1px solid #e1e1e1;
 }
