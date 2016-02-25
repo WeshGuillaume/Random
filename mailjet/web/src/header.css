@@ -177,7 +177,9 @@ td {
   font-style: italic;
   font-size: 60px;
   height: 300px;
-  line-height: 350px;
+  padding: 45px;
+  line-height: 300px;
+  margin-top: 150px;
 }
 
 .square {
