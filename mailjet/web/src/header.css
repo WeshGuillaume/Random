@@ -6,7 +6,7 @@ body, html {
 }
 
 .sections {
-  margin-top: 260px;
+  /*margin-top: 260px;*/
 }
 
 /* oooooo */
@@ -15,9 +15,10 @@ body, html {
 
 header {
   background-color: #FFC85B;
-  padding-top: 100px;
-  padding-bottom: -100px;
+  /*padding-top: 70px;*/
+  /*padding-bottom: -100px;*/
   height: 500px;
+  /*transition: 1s all ease-in-out;*/
 }
 
 table {
@@ -27,6 +28,10 @@ table {
 tr {
   background: white;
 }
+/*
+tr:nth-child(n + 5) {
+    display: none;
+}*/
 
 th {
   background: #FFC85B;
@@ -53,6 +58,10 @@ td {
   right: 0;
 }
 
+.collapse {
+  display: none;
+}
+
 .table-feature {
   padding: 15px 20px;
   color: silver;
@@ -71,8 +80,11 @@ td {
 }
 
 .table-container {
-  margin: 30px auto;
+  margin: 0px auto;
+  margin-bottom: -100px;
   position: relative;
+  /*bottom: -100px;*/
+  top: -200px;
   left: 0;
   right: 0;
   width: 60%;
@@ -82,7 +94,6 @@ td {
 }
 
 .table-footer {
-  background-color: white;
   width: 100%;
   height: 20px;
   text-align: center;
@@ -90,6 +101,7 @@ td {
 }
 
 .see-more {
+  cursor: pointer;
   background-color: #FEAD0D;
   position: relative;
   left: 0;
@@ -111,7 +123,7 @@ td {
 
 .testimonial {
   margin: 0 auto;
-  position: relative;
+  /*position: relative;*/
   left: 0;
   right: 0;
   width: 50%;

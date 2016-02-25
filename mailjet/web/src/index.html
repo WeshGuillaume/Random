@@ -7,6 +7,7 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,500' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="header.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
 </head>
 <body>
   <header>
@@ -14,45 +15,73 @@
       <img width="640px" src="assets/tmp.png" alt="tmp">
       <h3>Wording about Mailjet vs Mandrill</h3>
     </div>
-    <div class="table-container">
-      <table cellpadding="10" border="0" cellspacing="0">
-      	<thead>
-      	<tr>
-      		<th>Company</th>
-      		<th>Mailjet</th>
-      		<th>Mandrill</th>
-      	</tr>
-      	</thead>
-      	<tbody>
-      	<tr>
-      		<td class="table-feature">Feature 1</td>
-      		<td><i class="fa fa-check-circle-o check-icon"></i></td>
-      		<td><i class="fa fa-times-circle-o close-icon"></i></td>
-      	</tr>
-      	<tr>
-      		<td class="table-feature">Feature 2</td>
-      		<td><i class="fa fa-times-circle-o close-icon"></i></td>
-      		<td><i class="fa fa-check-circle-o check-icon"></i></td>
-      	</tr>
-        <tr>
-          <td class="table-feature">Feature 3</td>
-          <td><i class="fa fa-check-circle-o check-icon"></i></td>
-          <td><i class="fa fa-check-circle-o check-icon"></i></td>
-        </tr>
-        <tr>
-          <td class="table-feature">Feature 4</td>
-          <td><i class="fa fa-check-circle-o check-icon"></i></td>
-          <td><i class="fa fa-check-circle-o check-icon"></i></td>
-        </tr>
-      	</tbody>
-      </table>
-      <div class="table-footer">
-        <button class="see-more">See more</button>
-      </div>
-    </div>
   </header>
 
   <div class="sections">
+
+    <section id="table">
+      <div class="table-container">
+        <table cellpadding="10" border="0" cellspacing="0">
+        	<thead>
+        	<tr>
+        		<th></th>
+        		<th>Mailjet</th>
+        		<th>Mandrill</th>
+        	</tr>
+        	</thead>
+        	<tbody class="features-tbody">
+        	<tr>
+        		<td class="table-feature">Feature 1</td>
+        		<td><i class="fa fa-check-circle-o check-icon"></i></td>
+        		<td><i class="fa fa-times-circle-o close-icon"></i></td>
+        	</tr>
+        	<tr>
+        		<td class="table-feature">Feature 2</td>
+        		<td><i class="fa fa-times-circle-o close-icon"></i></td>
+        		<td><i class="fa fa-check-circle-o check-icon"></i></td>
+        	</tr>
+          <tr>
+            <td class="table-feature">Feature 3</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr>
+            <td class="table-feature">Feature 4</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr class="collapse">
+            <td class="table-feature">Feature 5</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr class="collapse">
+            <td class="table-feature">Feature 6</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr class="collapse">
+            <td class="table-feature">Feature 7</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr class="collapse">
+            <td class="table-feature">Feature 8</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+          <tr class="collapse">
+            <td class="table-feature">Feature 9</td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+            <td><i class="fa fa-check-circle-o check-icon"></i></td>
+          </tr>
+        	</tbody>
+        </table>
+        <div class="table-footer">
+          <button class="see-more">See more</button>
+        </div>
+      </div>
+    </section>
 
     <section id="testimonials">
       <div class="testimonial">
@@ -109,5 +138,12 @@
 
   </div>
 
+  <script>
+    $(document).ready(function () {
+      $('.see-more').click(function () {
+        $('.collapse').toggle(500)
+      })
+    })
+  </script>
 </body>
 </html>
