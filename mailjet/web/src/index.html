@@ -21,7 +21,7 @@
 
     <section id="table">
       <div class="table-container">
-        <table cellpadding="10" border="0" cellspacing="0">
+        <table cellspacing="0" cellpadding="0" border="0">
         	<thead>
         	<tr>
         		<th></th>
@@ -136,12 +136,15 @@
       </div>
     </section>
 
+    <section id="sign-up">
+      <a href="#" class="sign-up">Sign up now</a>
+    </section>
   </div>
 
   <script>
     $(document).ready(function () {
       $('.see-more').click(function () {
-        $('.collapse').toggle(500)
+        $('.collapse').toggle('slow')
       })
     })
   </script>
