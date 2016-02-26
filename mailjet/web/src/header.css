@@ -16,9 +16,9 @@ only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
 	/* Force table to not be like tables anymore */
-	table, thead, tbody, th, td, tr {
+	/*table, thead, tbody, th, td, tr {
 		display: block;
-	}
+	}*/
 
   /*Does not work*/
   .table-container { width: 100% !important; }
@@ -43,22 +43,93 @@ only screen and (max-width: 760px),
 
 	td {
 		/* Behave  like a "row" */
-		border: none;
-		/*border-bottom: 1px solid #eee;*/
-		position: relative;
-		padding-left: 50%;
+		/*border: none;*/
+		/*position: relative;*/
+		/*padding-left: 50%;*/
 	}
 
-	td:before {
+	/*td:before {*/
 		/* Now like a table header */
-		position: absolute;
+		/*position: absolute;*/
 		/* Top/left values mimic padding */
-		top: 6px;
-		left: 6px;
-		width: 45%;
-		padding-right: 10px;
-		white-space: nowrap;
-	}
+		/*top: 6px;*/
+		/*left: 6px;*/
+		/*width: 45%;*/
+		/*padding-right: 10px;*/
+		/*white-space: nowrap;*/
+	/*}*/
+}
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px;
+}
+.rwd-table tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+  border: 1px solid #f4f4f4;
+  text-align: center;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th);
+  font-weight: bold;
+  margin-right: 20px;
+  width: 6.5em;
+  /*display: inline-block;*/
+  text-align: center;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  /*text-align: left;*/
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.rwd-table {
+  overflow: hidden;
+  width: 100%;
+  border-color: red;
+}
+.rwd-table tr {
+  /*border-color: red;*/
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 1em !important;
+  }
+}
+.rwd-table th /*, .rwd-table td:before */ {
+  background-color: #FFC85B;
+  color: #A37E37;
 }
 
 /* oooooo */
@@ -72,18 +143,18 @@ header {
   height: 500px;
 }
 
-table {
+/*table {
   width: 100%;
 }
 
 tr {
   background: white;
-}
+}*/
 /*
 tr:nth-child(n + 5) {
     display: none;
 }*/
-
+/*
 th {
   background: #FFC85B;
   color: #A37E37;
@@ -97,7 +168,7 @@ td {
   text-align: center;
   border: 1px solid #f0f0f0;
   padding: 15px 60px;
-}
+}*/
 
 #heading-text {
   text-align: center;
@@ -134,6 +205,7 @@ td {
 }
 
 .table-container {
+  background-color: #fff;
   margin: 0px auto;
   margin-bottom: -100px;
   position: relative;
