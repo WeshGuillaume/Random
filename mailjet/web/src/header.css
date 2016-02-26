@@ -23,6 +23,13 @@ only screen and (max-width: 760px),
   /*Does not work*/
   .table-container { width: 100%; }
   .content { padding: 10px; }
+  .feature {
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+  }
 
 	/* Hide table headers (but not display: none;, for accessibility) */
 	/*thead tr {
@@ -227,18 +234,21 @@ td {
   display: -ms-flex;
   display: -o-flex;
   display: flex;
+  -ms-align-items: center;
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin-top: 150px;
 }
 
 .feature-vs {
   color: #FFDE9E;
   font-style: italic;
   font-size: 60px;
-  height: 300px;
-  padding: 45px;
-  line-height: 300px;
-  margin-top: 150px;
+  flex-shrink: 0;
+  /*height: 300px;*/
+  padding: 100px;
+  /*line-height: 300px;*/
+  /*margin-top: 150px;*/
 }
 
 .square {
@@ -248,7 +258,7 @@ td {
   padding: 45px !important;
   width: 300px;
   height: 300px;
-  margin-top: 150px;
+  /*margin-top: 150px;*/
 }
 
 .square p {
