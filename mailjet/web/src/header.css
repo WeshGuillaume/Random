@@ -26,6 +26,10 @@ only screen and (max-width: 760px),
   #inputs input {
     border-radius: 0 !important;
   }
+
+  header{
+    height: 55vh !important;
+  }
 }
 
 @media only screen and (max-width: 1200px),
@@ -126,7 +130,7 @@ only screen and (max-width: 760px),
 header {
   background-color: #FFC85B;
   padding-top: 70px;
-  height: 70vh;
+  height: 450px;
 }
 
 #heading-text {
