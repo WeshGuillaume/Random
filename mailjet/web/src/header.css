@@ -172,7 +172,7 @@ header {
   /*margin-top: -100px;*/
   margin-bottom: -100px;
   position: relative;
-  bottom: -100px;
+  bottom: -50px;
   top: -200px;
   left: 0;
   right: 0;
@@ -218,6 +218,7 @@ header {
 /* ooooooooooo */
 /* TESTIMONIAL */
 /* ooooooooooo */
+
 
 .testimonial {
   margin: 0 auto;
@@ -331,20 +332,20 @@ header {
   text-align: justify;
   font-family: 'Roboto';
   position: relative;
-  /*top: -120px;*/
 }
 
 .square h3 {
   position: relative;
-  margin-top: -120px;
+  margin-top: -50px;
 }
 
 .feature-number {
   color: #FFDE9E;
   font-family: 'Roboto';
-  font-size: 150px;
+  font-size: 50px;
   position: relative;
-  top: -125px;
+  top: -75px;
+  bottom: 50px;
   padding: 0;
   margin: 0;
 }
