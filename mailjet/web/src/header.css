@@ -335,3 +335,22 @@ td {
 /* ooooOOOOooo */
 /* END-SIGN-UP */
 /* ooooooOOOOo */
+
+/* ooooOOOOooo */
+/* SUBSCRIBE */
+/* ooooooOOOOo */
+
+#subscribe {
+  background-color: rgb(242, 242, 242);
+  width: 100%;
+  height: 360px;
+  text-align: center;
+  background-image: url(assets/clouds.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#subscribe>h3{
+  padding: 20px;
+  padding-top: 60px;
+}
