@@ -15,9 +15,21 @@ body, html {
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
-  .table-container { width: 100% !important; }
+  .table-container, #sign-up-form { width: 100% !important; }
   .content { padding: 50px 10px !important; }
   .testimonial { width: 80% !important; }
+
+  #sign-up-form form {
+    /*padding: 5px;*/
+  }
+
+  #inputs input {
+    border-radius: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 1200px),
+(min-device-width: 1200px) and (max-device-width: 1024px) {
   .feature {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -29,7 +41,7 @@ only screen and (max-width: 760px),
 
 .rwd-table {
   margin: 1em 0;
-  min-width: 300px;
+  min-width: 100px;
 }
 .rwd-table tr {
   border-top: 1px solid #ddd;
@@ -113,10 +125,8 @@ only screen and (max-width: 760px),
 
 header {
   background-color: #FFC85B;
-  /*padding-top: 70px;*/
-  /*padding-bottom: -100px;*/
-  padding-top: 100px;
-  height: 450px;
+  padding-top: 70px;
+  height: 70vh;
 }
 
 #heading-text {
@@ -155,6 +165,7 @@ header {
 .table-container {
   background-color: #fff;
   margin: 0px auto;
+  /*margin-top: -100px;*/
   margin-bottom: -100px;
   position: relative;
   bottom: -100px;
@@ -274,7 +285,31 @@ header {
 }
 
 .header-vs {
-  padding: 20px 25px 20px 20px;
+  padding: 0px 25px 0px 20px;
+}
+
+#header-vs {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 700px),
+(min-device-width: 700px) and (max-device-width: 1024px) {
+  #header-vs {
+    flex-wrap: wrap;
+  }
 }
 
 .square {
@@ -389,12 +424,17 @@ header {
 
 #sign-up-form form {
   text-align: left;
+  width: 100%;
 }
 
 #sign-up-form #inputs {
   width: 100%;
-  float: left;
-  text-align: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 #sign-up-form #inputs #email {
@@ -419,6 +459,7 @@ header {
   background-color: #FEAD0D;
   color: white;
   outline: none;
+  /*padding: 10px;*/
   padding: 9px;
   padding-left: 20px;
   padding-right: 20px;
@@ -447,6 +488,7 @@ header {
 #sign-up-form form label {
   width: 100%;
   display: block;
+  float: left;
   padding: 20px 0 10px 0;
 }
 
