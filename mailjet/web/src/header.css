@@ -113,7 +113,10 @@ td {
 
 .table-feature {
   padding: 15px 20px;
+  padding-left: 25px;
+  width: 50%;
   color: silver;
+  text-align: left;
 }
 
 .close-icon {
