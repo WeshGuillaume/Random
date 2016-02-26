@@ -11,6 +11,15 @@ body, html {
   transition: all 1s ease;
 }
 
+.sepa{
+  height: 1px;
+  width: 200px;
+  background-color: #dfdfdf;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
@@ -276,7 +285,7 @@ header {
   -ms-align-items: center;
   align-items: center;
   justify-content: space-between;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .feature-vs {
@@ -325,6 +334,7 @@ header {
   box-shadow: -1px 2px 64px -9px rgba(10,6,0,0.30);
   padding: 45px;
   width: 300px;
+  min-height: 250px;
   /*height: 300px;*/
   /*margin-top: 150px;*/
 }
