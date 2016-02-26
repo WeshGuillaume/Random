@@ -21,8 +21,9 @@ only screen and (max-width: 760px),
 	}
 
   /*Does not work*/
-  .table-container { width: 100%; }
-  .content { padding: 10px; }
+  .table-container { width: 100% !important; }
+  .content { padding: 50px 10px !important; }
+  .testimonial { width: 80% !important; }
   .feature {
     -webkit-flex-direction: column;
     -moz-flex-direction: column;
@@ -255,7 +256,7 @@ td {
   -webkit-box-shadow: -1px 2px 64px -9px rgba(10,6,0,0.30);
   -moz-box-shadow: -1px 2px 64px -9px rgba(10,6,0,0.30);
   box-shadow: -1px 2px 64px -9px rgba(10,6,0,0.30);
-  padding: 45px !important;
+  padding: 45px;
   width: 300px;
   height: 300px;
   /*margin-top: 150px;*/
