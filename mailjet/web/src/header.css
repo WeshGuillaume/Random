@@ -458,17 +458,45 @@ td {
   float: left;
   border: 1px solid #d1d1d1;
   outline: none;
-  border-radius: 3px
+  border-radius: 3px;
+}
+
+#sign-up-form #inputs #email:focus{
+  border-width: 1px;
+  border-color: rgb(44, 151, 222);
+  border-style: solid;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
 }
 
 #sign-up-form #inputs #submit {
+  cursor: pointer;
   background-color: #FEAD0D;
   color: white;
   outline: none;
-  padding: 10px;
+  padding: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
   border: none;
   /*margin-left: 5px;*/
-  border-radius: 3px
+  border-radius: 3px;
+  border-color: rgb(255, 156, 0);
+  border-style: solid;
+  border-width: 1px;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+}
+
+#sign-up-form #inputs #submit:hover{
+  background-color: rgb(255, 156, 0);
+  border-color: rgb(255, 156, 0);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  font-family: "Roboto";
+  color: white;
 }
 
 #sign-up-form form label {
@@ -477,6 +505,13 @@ td {
   padding: 20px 0 10px 0;
 }
 
+.label-email{
+  font-size: 10px;
+  font-family: "Roboto";
+  color: rgb(140, 140, 140);
+  line-height: 1.2;
+  text-align: left;
+}
 /* ooooooOOOOooo */
 /* END-SUBSCRIBE */
 /* ooooooooOOOOo */
