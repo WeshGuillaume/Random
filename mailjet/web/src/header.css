@@ -258,7 +258,7 @@ td {
   box-shadow: -1px 2px 64px -9px rgba(10,6,0,0.30);
   padding: 45px;
   width: 300px;
-  height: 300px;
+  /*height: 300px;*/
   /*margin-top: 150px;*/
 }
 
@@ -267,12 +267,12 @@ td {
   text-align: justify;
   font-family: 'Roboto';
   position: relative;
-  top: -120px;
+  /*top: -120px;*/
 }
 
 .square h3 {
   position: relative;
-  top: -120px;
+  margin-top: -120px;
 }
 
 .feature-number {
