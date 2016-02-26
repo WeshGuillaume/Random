@@ -142,7 +142,7 @@ header {
   height: 300px;
 }
 
-#heading-text {
+#heading-text h1 {
   text-align: center;
   font-size: 25px;
   color: #A37E37;
@@ -344,6 +344,7 @@ header {
   text-align: justify;
   font-family: 'Roboto';
   position: relative;
+  line-height: 24px;
 }
 
 .square h3 {
@@ -430,6 +431,11 @@ header {
 #subscribe>h3{
   padding: 20px;
   padding-top: 60px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 156, 0);
 }
 
 #sign-up-form {
