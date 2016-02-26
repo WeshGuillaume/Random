@@ -73,7 +73,6 @@ only screen and (max-width: 760px),
 }
 .rwd-table td {
   display: block;
-  border: 1px solid #f4f4f4;
   text-align: center;
 }
 .rwd-table td:first-child {
@@ -88,15 +87,17 @@ only screen and (max-width: 760px),
   margin-right: 20px;
   width: 6.5em;
   /*display: inline-block;*/
-  text-align: center;
+  text-align: left;
+  color: silver;
 }
 @media (min-width: 480px) {
   .rwd-table td:before {
     display: none;
   }
 }
-.rwd-table th, .rwd-table td {
+.rwd-table th /*, .rwd-table td */ {
   /*text-align: left;*/
+  /*width: 50%;*/
 }
 @media (min-width: 480px) {
   .rwd-table th, .rwd-table td {
@@ -114,20 +115,27 @@ only screen and (max-width: 760px),
 .rwd-table {
   overflow: hidden;
   width: 100%;
-  border-color: red;
 }
 .rwd-table tr {
-  /*border-color: red;*/
 }
 .rwd-table th, .rwd-table td {
   margin: .5em 1em;
 }
+
+.rwd-table th { color: silver; }
+
 @media (min-width: 480px) {
   .rwd-table th, .rwd-table td {
     padding: 1em !important;
   }
+  .rwd-table td {
+    border: 1px solid #f4f4f4;
+  }
+  .rwd-table .table-feature {
+    width: 50%;
+  }
 }
-.rwd-table th /*, .rwd-table td:before */ {
+.rwd-table th {
   background-color: #FFC85B;
   color: #A37E37;
 }
@@ -187,7 +195,7 @@ td {
 .table-feature {
   padding: 15px 20px;
   padding-left: 25px;
-  width: 50%;
+  /*width: 50%;*/
   color: silver;
   text-align: left;
 }
@@ -426,3 +434,49 @@ td {
   padding: 20px;
   padding-top: 60px;
 }
+
+#sign-up-form {
+  width: 35%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+#sign-up-form form {
+  text-align: left;
+}
+
+#sign-up-form #inputs {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+#sign-up-form #inputs #email {
+  padding: 10px 5px;
+  width: 80%;
+  float: left;
+  border: 1px solid #d1d1d1;
+  outline: none;
+  border-radius: 3px
+}
+
+#sign-up-form #inputs #submit {
+  background-color: #FEAD0D;
+  color: white;
+  outline: none;
+  padding: 10px;
+  border: none;
+  /*margin-left: 5px;*/
+  border-radius: 3px
+}
+
+#sign-up-form form label {
+  width: 100%;
+  display: block;
+  padding: 20px 0 10px 0;
+}
+
+/* ooooooOOOOooo */
+/* END-SUBSCRIBE */
+/* ooooooooOOOOo */
