@@ -24,12 +24,6 @@ only screen and (max-width: 760px),
   .table-container { width: 100%; }
   .content { padding: 10px; }
 
-  .feature-vs {
-    width: 100%;
-    height: auto;
-    padding: 50px;
-  }
-
 	/* Hide table headers (but not display: none;, for accessibility) */
 	/*thead tr {
 		position: absolute;
