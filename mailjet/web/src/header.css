@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'League';
+  src: url('assets/LeagueGothic-Italic.otf') format("opentype");
+}
+
 body, html {
   padding: 0;
   margin: 0;
@@ -6,21 +11,10 @@ body, html {
   transition: all 1s ease;
 }
 
-/*
-Max width before this PARTICULAR table gets nasty
-This query will take effect for any screen smaller than 760px
-and also iPads specifically.
-*/
 @media
 only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px)  {
 
-	/* Force table to not be like tables anymore */
-	/*table, thead, tbody, th, td, tr {
-		display: block;
-	}*/
-
-  /*Does not work*/
   .table-container { width: 100% !important; }
   .content { padding: 50px 10px !important; }
   .testimonial { width: 80% !important; }
@@ -31,33 +25,6 @@ only screen and (max-width: 760px),
     -o-flex-direction: column;
     flex-direction: column;
   }
-
-	/* Hide table headers (but not display: none;, for accessibility) */
-	/*thead tr {
-		position: absolute;
-		top: -9999px;
-		left: -9999px;
-	}*/
-
-	/*tr { border: 1px solid #ccc; }*/
-
-	td {
-		/* Behave  like a "row" */
-		/*border: none;*/
-		/*position: relative;*/
-		/*padding-left: 50%;*/
-	}
-
-	/*td:before {*/
-		/* Now like a table header */
-		/*position: absolute;*/
-		/* Top/left values mimic padding */
-		/*top: 6px;*/
-		/*left: 6px;*/
-		/*width: 45%;*/
-		/*padding-right: 10px;*/
-		/*white-space: nowrap;*/
-	/*}*/
 }
 
 .rwd-table {
@@ -148,35 +115,9 @@ header {
   background-color: #FFC85B;
   /*padding-top: 70px;*/
   /*padding-bottom: -100px;*/
-  height: 500px;
+  padding-top: 100px;
+  height: 450px;
 }
-
-/*table {
-  width: 100%;
-}
-
-tr {
-  background: white;
-}*/
-/*
-tr:nth-child(n + 5) {
-    display: none;
-}*/
-/*
-th {
-  background: #FFC85B;
-  color: #A37E37;
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 18px;
-  padding: 20px 20px;
-}
-
-td {
-  text-align: center;
-  border: 1px solid #f0f0f0;
-  padding: 15px 60px;
-}*/
 
 #heading-text {
   text-align: center;
@@ -195,7 +136,6 @@ td {
 .table-feature {
   padding: 15px 20px;
   padding-left: 25px;
-  /*width: 50%;*/
   color: silver;
   text-align: left;
 }
@@ -324,12 +264,17 @@ td {
 .feature-vs {
   color: #FFDE9E;
   font-style: italic;
-  font-size: 60px;
+  font-size: 90px;
   flex-shrink: 0;
   /*height: 300px;*/
+  font-family: 'League';
   padding: 100px;
   /*line-height: 300px;*/
   /*margin-top: 150px;*/
+}
+
+.header-vs {
+  padding: 20px 25px 20px 20px;
 }
 
 .square {
