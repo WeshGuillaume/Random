@@ -92,7 +92,7 @@
           <tr class="collapse">
             <td class="table-feature">24/7 Support</td>
             <td data-th="Mailjet"><i class="fa fa-check-circle-o check-icon"></i></td>
-            <td data-th="Mandrill">?</td>
+            <td data-th="Mandrill"><i class="fa fa-times-circle-o close-icon"></i></td>
           </tr>
         	</tbody>
         </table>
@@ -136,7 +136,7 @@
         <div class="square">
           <span class="feature-number">Mailjet</span>
           <h3>Straight-forward Pricing</h3>
-          <p>Mailjet offers a simple volume-based pricing. Free accounts can send up to 6000 emails a month, with a limit of 200 emails a day. Bronze plan starts at $7.49 a month for 30000 emails regardless of message types - transactional, marketing or both. </p>
+          <p>Mailjet offers a <a href="https://www.mailjet.com/pricing_v3">simple volume-based pricing</a>. Free accounts can send up to 6000 emails a month, with a limit of 200 emails a day. Bronze plan starts at $7.49 a month for 30000 emails regardless of message types - transactional, marketing or both. </p>
         </div>
         <div class="feature-vs">vs</div>
         <div class="square">
@@ -150,7 +150,7 @@
         <div class="square">
           <span class="feature-number">Mailjet</span>
           <h3>Easy Responsive Design</h3>
-          <p>Mailjet’s visual editor, Passport, helps you easily design responsive transactional email templates. For further design and wording updates to existing templates, simply do so within Passport without the need to change any code.</p>
+          <p>Mailjet’s visual editor, Passport, helps you easily design <a href="https://www.mailjet.com/transactional">responsive transactional email templates</a>. For further design and wording updates to existing templates, simply do so within Passport without the need to change any code.</p>
         </div>
         <div class="feature-vs">vs</div>
         <div class="square">
@@ -184,11 +184,12 @@
   </div>
 
   <script>
-    $(document).ready(function () {
-      $('.see-more').click(function () {
-        $('.collapse').show('slow')
-      })
+  $(document).ready(function () {
+    $('.see-more').click(function () {
+      $('.collapse').show('slow');
+      $('.table-footer').hide('slow');
     })
+  })
   </script>
 </body>
 </html>
