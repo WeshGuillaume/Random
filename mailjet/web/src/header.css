@@ -339,6 +339,10 @@ header {
   /*margin-top: 150px;*/
 }
 
+.square 2{
+  float: right;
+}
+
 .square p {
   color: #b0b0b0;
   text-align: justify;
@@ -421,11 +425,14 @@ header {
 #subscribe {
   background-color: rgb(242, 242, 242);
   width: 100%;
-  height: 360px;
+  min-height: 500px;
+  height: 100%;
+  padding-bottom: 20px;
   text-align: center;
   background-image: url(assets/clouds.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
+  margin: auto;
 }
 
 #subscribe>h3{
@@ -462,6 +469,10 @@ a{
 
 #sign-up-form #inputs #email {
   padding: 10px 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
   width: 70%;
   float: left;
   border: 1px solid #d1d1d1;
@@ -487,6 +498,7 @@ a{
   padding-left: 20px;
   padding-right: 20px;
   border: none;
+  margin: auto;
   /*margin-left: 5px;*/
   border-radius: 3px;
   border-color: rgb(255, 156, 0);
