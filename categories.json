@@ -1,0 +1,32 @@
+[
+  {
+    "id": "science",
+    "name": "Science",
+    "previewUri": ""
+  },
+  {
+    "id": "history",
+    "name": "History",
+    "previewUri": ""
+  },
+  {
+    "id": "art history",
+    "name": "Art History",
+    "previewUri": ""
+  },
+  {
+    "id": "relax",
+    "name": "Relax",
+    "previewUri": ""
+  },
+  {
+    "id": "economics",
+    "name": "Economics",
+    "previewUri": ""
+  },
+  {
+    "id": "spanish",
+    "name": "Spanish",
+    "previewUri": ""
+  }
+]
